@@ -6,10 +6,11 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "Better VJudge Docs",
   description: "Better Vjudge 文档",
-  logo: 'https://cdn.luogu.com.cn/upload/usericon/1393230.png',
   siteTitle: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.png',
+    // logo: 'https://cdn.luogu.com.cn/upload/usericon/1393230.png',
     nav: [
       { text: '首页', link: '/' },
       {
