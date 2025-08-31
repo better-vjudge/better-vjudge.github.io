@@ -1,0 +1,11 @@
+
+node_modules/
+.cache/
+dist/
+docs/.vitepress/dist/
+.yarn/
+.pnpm
+.env
+.DS_Store
+Thumbs.db
+
