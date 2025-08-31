@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/',
   lang: 'zh-CN',
   title: "Better VJudge Docs",
   description: "Better Vjudge 插件使用文档",
