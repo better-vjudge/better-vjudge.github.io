@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "Better VJudge"
-  text: "插件文档"
+  text: "使用文档"
   tagline: 一个美化、增强 VJudge 的篡改猴插件
   actions:
     - theme: brand
       text: 获取插件
       link: /download/download.html
-    # - theme: alt
-    #   text: 查看教程
-    #   link: /
+    - theme: alt
+      text: 使用说明
+      link: /use/use-generalizations.html
 
 features:
   - title: 美化界面
