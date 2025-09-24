@@ -21,7 +21,13 @@ export default defineConfig({
         ]
       },
       { text: '预览', link: '/preview/preview.html'},
-      { text: '使用说明', link: '/use/use-generalizations.html'},
+      {
+        text: '使用说明',
+        items: [
+          { text: '基础功能使用说明', link: '/use/basic.html'},
+          { text: '数据库功能使用说明', link: '/use/database.html'}
+        ]
+      },
       { text: '功能原理', link: '/develop/fragmented-thoughts.html'}
     ],
 
@@ -40,6 +46,13 @@ export default defineConfig({
         ]
       },
       {
+        text: '使用说明',
+        items: [
+          { text: '基础功能使用说明', link: '/use/basic.html'},
+          { text: '数据库功能使用说明', link: '/use/database.html'}
+        ]
+      },
+      {
         text: '功能原理',
         items: [
           { text: '碎碎念', link: '/develop/fragmented-thoughts.html' },
@@ -48,7 +61,6 @@ export default defineConfig({
             items: [
               { text: '顶栏', link: '/develop/beautification/navbar.html' },
               { text: '字体', link: '/develop/beautification/font-family.html' },
-              { text: '排行榜', link: '/develop/beautification/rank.html' },
               { text: '背景颜色', link: '/develop/beautification/background-color.html' },
               { text: '其他', link: '/develop/beautification/other.html' }
             ]
