@@ -18,8 +18,14 @@ features:
   - title: 美化界面
     details: 调整 VJudge 色调，固定导航栏。
   - title: 代码编辑
-    details: 添加代码编辑器，并支持分屏与全屏。
+    details: 添加代码编辑器，并支持分屏与全屏。  
+  - title: 编辑模式
+    details: 拥有全屏、半屏模式，提高编辑效率。
+  - title: 模板设置
+    details: 可设置缺省源。
   - title: 样例测试
     details: 自动爬取题目样例，支持测试所有，并显示差异，也支持自造样例。
+  - title: 云数据库
+    details: 用户可给出 Supabase 数据库的信息，将代码保存至云数据库。
 ---
 
